@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sogou.mobile.custombar.MainActivity">
+
+    <sogou.mobile.custombar.BounceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <sogou.mobile.custombar.ScrollViewEx
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/showTvContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/showContent" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:background="#eeeef4" />
+
+                <sogou.mobile.custombar.HorizontalScrollBall
+                    android:id="@+id/scrollBall"
+                    android:layout_height="80dp"
+                    android:layout_width="match_parent"
+                    app:radius="13" />
+
+                <TextView
+                    android:gravity="center"
+                    android:visibility="invisible"
+                    android:id="@+id/textTip"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="@string/app_name"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </sogou.mobile.custombar.ScrollViewEx>
+    </sogou.mobile.custombar.BounceView>
+</LinearLayout>
