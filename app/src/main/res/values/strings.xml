@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">HorizontalScrollBar</string>
-    <string name="showContent">⽩白发渔樵江渚上，惯看秋⽉月春风。⼀一壶浊 酒喜相逢，古今多少事，都付笑谈中。</string>
-    <string name="text_small_tip">字体过⼩小可能会影响阅读体验</string>
-    <string name="text_big_tip">字体过⼤大可能会影响某些网页排版观感</string>
+    <string name="showContent">⽩白发渔樵江渚上\n惯看秋⽉月春风\n一壶浊酒喜相逢\n古今多少事\n都付笑谈中</string>
+    <string name="text_small_tip">字体过小可能会影响阅读体验</string>
+    <string name="text_big_tip">字体过大可能会影响某些网页排版观感</string>
     <string name="smaller_text">较小</string>
     <string name="small_text">小</string>
     <string name="default_text">默认</string>
