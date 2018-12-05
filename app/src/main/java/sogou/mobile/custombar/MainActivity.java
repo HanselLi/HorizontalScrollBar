@@ -1,5 +1,6 @@
 package sogou.mobile.custombar;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -7,6 +8,11 @@ import android.view.View;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import sogou.mobile.custombar.kotlinFile.Main2Activity;
+/**
+ * 继承SeekBar也可实现小球滑动的效果
+ *
+ */
 public class MainActivity extends AppCompatActivity {
 
     private TextView showTvContent;
@@ -58,6 +64,11 @@ public class MainActivity extends AppCompatActivity {
         }else {
             textTip.setVisibility(View.INVISIBLE);
         }
+    }
+
+    /** 跳转到Kotlin的sample*/
+    public void ktSampleClick(View view){
+        startActivity(new Intent(this,Main2Activity.class));
     }
 
 }
