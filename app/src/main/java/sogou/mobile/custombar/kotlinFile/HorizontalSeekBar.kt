@@ -251,7 +251,7 @@ class HorizontalSeekBar @JvmOverloads constructor(// JvmLoad 注解直接设置�
         invalidate()
     }
 
-    fun dp2px(dp: Int): Float {
+    private fun dp2px(dp: Int): Float {
         return (resources.displayMetrics.density * dp + 0.4f)
     }
 
