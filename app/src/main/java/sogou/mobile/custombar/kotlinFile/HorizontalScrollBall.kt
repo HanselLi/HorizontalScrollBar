@@ -16,6 +16,7 @@ import sogou.mobile.custombar.SpUtil
  * test submodule
  * Created by hansel on 2018/11/13.
  * 画一个自带刻度的可滑动小球(仿QQ浏览器的设置中的字体大小的调整View)
+ * make a difference
  */
 @Deprecated("此例子是Java convert to Kotlin 自动转化的，仅参考，不是很智能")
 class HorizontalScrollBall @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) : View(context, attrs, defStyleAttr) {
