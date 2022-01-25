@@ -13,7 +13,7 @@ import sogou.mobile.custombar.R
 import sogou.mobile.custombar.SpUtil
 
 /**
- *
+ * test submodule
  * Created by hansel on 2018/11/13.
  * 画一个自带刻度的可滑动小球(仿QQ浏览器的设置中的字体大小的调整View)
  */
